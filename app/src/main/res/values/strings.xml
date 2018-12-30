@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">InterfazExtrusora</string>
+    <string name="led_off">LED OFF</string>
+    <string name="led_on">LED ON</string>
+    <string name="adc">ADC</string>
+    <string name="led_on">LED ON</string>
+    <string name="led_off">LED OFF</string>
 </resources>

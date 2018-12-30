@@ -19,7 +19,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical|center_horizontal"
-            android:orientation="horizontal"></LinearLayout>
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/LayoutPanel"
@@ -33,7 +52,6 @@
                 android:id="@+id/LayoutColumnaI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="vertical">
 
@@ -41,15 +59,15 @@
                     android:id="@+id/toggleButton1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textOff="LED OFF"
-                    android:textOn="LED ON"
+                    android:textOff="@string/led_off"
+                    android:textOn="@string/led_on"
                     android:visibility="visible" />
 
                 <Button
                     android:id="@+id/btnADC"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ADC" />
+                    android:text="@string/adc" />
 
             </LinearLayout>
 
@@ -57,7 +75,6 @@
                 android:id="@+id/LayoutColumnaII"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="vertical">
 
@@ -65,14 +82,14 @@
                     android:id="@+id/btnLed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LED ON" />
+                    android:text="@string/led_on" />
 
                 <Button
 
                     android:id="@+id/btnLedOff"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LED OFF" />
+                    android:text="@string/led_off" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
